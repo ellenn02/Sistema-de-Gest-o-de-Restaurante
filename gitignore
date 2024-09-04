@@ -1,0 +1,48 @@
+# Ignorar arquivos de banco de dados
+*.sql
+*.db
+
+# Ignorar arquivos temporários
+*.log
+*.tmp
+
+# Ignorar arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs_analysis.dat
+*.ncb
+*.swp
+
+
+Título: Sistema de Gestão de Restaurante
+
+Descrição:
+
+Este projeto visa criar um banco de dados para a gestão de um restaurante. O banco de dados foi estruturado para armazenar informações sobre clientes, mesas, pedidos e itens de pedido, utilizando o sistema de gerenciamento de banco de dados MySQL.
+
+Objetivo:
+
+Desenvolver um banco de dados que permita o gerenciamento eficiente das seguintes entidades:
+
+Clientes: Informações básicas dos clientes, como nome, telefone e e-mail.
+Mesas: Detalhes sobre as mesas do restaurante, incluindo o número e a capacidade.
+Pedidos: Registro dos pedidos feitos pelos clientes, incluindo data e total do pedido.
+Itens_Pedido: Informações sobre os itens específicos de cada pedido, incluindo descrição, quantidade e preço.
+Funcionalidades:
+
+Criação e Estruturação do Banco de Dados: Criação das tabelas necessárias e definição de suas relações.
+Inserção de Dados: Inclusão de dados iniciais para clientes, mesas, pedidos e itens de pedidos.
+Consultas: Possibilidade de consultar e listar dados de clientes, mesas, pedidos e itens de pedidos.
+Atualizações: Capacidade de atualizar informações de clientes e mesas.
+Deleções: Opção para excluir pedidos e clientes, com o tratamento adequado para manter a integridade dos dados.
+Tecnologias Utilizadas:
+
+MySQL
+Como Executar:
+
+Para rodar o banco de dados, você deve clonar o repositório e executar o script SQL fornecido. Certifique-se de ter o MySQL instalado e configurado em seu ambiente.
