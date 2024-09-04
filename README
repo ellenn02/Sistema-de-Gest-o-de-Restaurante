@@ -1,0 +1,76 @@
+# Sistema de Gestão de Restaurante
+
+Este projeto consiste em um banco de dados para gerenciar um restaurante, incluindo clientes, mesas, pedidos e itens de pedido. O banco de dados foi criado utilizando MySQL e inclui tabelas para armazenar informações sobre clientes, mesas, pedidos e os itens desses pedidos.
+
+## Estrutura do Banco de Dados
+
+O banco de dados `RestauranteDB` possui as seguintes tabelas:
+
+- **Clientes**: Armazena informações sobre os clientes do restaurante.
+- **Mesas**: Contém dados sobre as mesas disponíveis no restaurante.
+- **Pedidos**: Registra os pedidos realizados pelos clientes, associando-os às mesas e clientes.
+- **Itens_Pedido**: Detalha os itens de cada pedido, incluindo quantidade e preço unitário.
+
+## Script SQL
+
+O script SQL fornecido faz o seguinte:
+
+1. **Criação do Banco de Dados**:
+    - Cria o banco de dados `RestauranteDB`.
+
+2. **Criação das Tabelas**:
+    - `Clientes`
+    - `Mesas`
+    - `Pedidos`
+    - `Itens_Pedido`
+
+3. **Inserção de Dados**:
+    - Adiciona alguns dados iniciais para clientes, mesas, pedidos e itens de pedido.
+
+4. **Consultas**:
+    - Lista todos os clientes, mesas e pedidos.
+    - Exibe todos os itens de um pedido específico, incluindo o subtotal e o total do pedido.
+
+5. **Atualizações**:
+    - Atualiza as informações de um cliente e de uma mesa.
+
+6. **Deleções**:
+    - Exclui um pedido e todos os itens relacionados a ele.
+    - Exclui um cliente (os pedidos relacionados não são excluídos).
+
+## Como Usar
+
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/seu_usuario/sistema-gestao-restaurante.git
+    ```
+
+2. Acesse o diretório do projeto:
+    ```bash
+    cd sistema-gestao-restaurante
+    ```
+
+3. Execute o script SQL no seu servidor MySQL:
+    ```bash
+    mysql -u seu_usuario -p < script.sql
+    ```
+
+   Certifique-se de substituir `seu_usuario` pelo nome de usuário do MySQL e de fornecer a senha quando solicitado.
+
+## Contribuições
+
+Sinta-se à vontade para contribuir com melhorias, correções ou sugestões. Para contribuir, siga os passos abaixo:
+
+1. Faça um fork do repositório.
+2. Crie uma nova branch (`git checkout -b feature/nome-da-feature`).
+3. Faça as alterações desejadas e commite-as (`git commit -am 'Adiciona uma nova feature'`).
+4. Faça push para a branch (`git push origin feature/nome-da-feature`).
+5. Abra um Pull Request.
+
+## Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
+
+## Contato
+
+Para mais informações, entre em contato com [seu_email@example.com](mailto:seu_email@example.com).
